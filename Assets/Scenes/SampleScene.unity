@@ -253,7 +253,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.581
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -506,6 +506,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -572,7 +573,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -7.22}
+  m_LocalPosition: {x: 0, y: 1, z: -6.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -612,6 +613,21 @@ MonoBehaviour:
   focusDistance: 4.3
   focusRange: 9.31
   bokehRadius: 3.5
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e32fb1342dc6b3e4287a51585d215b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fxaaShader: {fileID: 4800000, guid: 696debe57fa1a1d429c84cd41ae5eeb9, type: 3}
+  contrastThreshold: 0.0367
+  luminanceSource: 2
 --- !u!1 &1026818814
 GameObject:
   m_ObjectHideFlags: 0

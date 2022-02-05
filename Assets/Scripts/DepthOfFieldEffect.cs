@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 [ExecuteInEditMode, ImageEffectAllowedInSceneView]
-public class DepthOfFieldEddect : MonoBehaviour
+public class DepthOfFieldEffect : MonoBehaviour
 {
     [HideInInspector] public Shader dofShader;
 
