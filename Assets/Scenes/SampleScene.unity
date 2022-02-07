@@ -573,7 +573,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -6.66}
+  m_LocalPosition: {x: 0, y: 1, z: -7.07}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -595,7 +595,7 @@ MonoBehaviour:
   intensity: 1.76
   iterations: 5
   threshold: 1
-  softThreshold: 0.658
+  softThreshold: 0.36
   debug: 0
 --- !u!114 &963194230
 MonoBehaviour:
@@ -611,7 +611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dofShader: {fileID: 4800000, guid: 8fd99060aa4467f429e079b7ab23ce2d, type: 3}
   focusDistance: 4.3
-  focusRange: 9.31
+  focusRange: 6.8
   bokehRadius: 3.5
 --- !u!114 &963194231
 MonoBehaviour:
@@ -626,8 +626,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fxaaShader: {fileID: 4800000, guid: 696debe57fa1a1d429c84cd41ae5eeb9, type: 3}
-  contrastThreshold: 0.0367
+  contrastThreshold: 0.0427
+  relativeThreshold: 0.155
+  subpixelBlending: 1
   luminanceSource: 2
+  lowQuality: 0
+  gammaBlending: 0
 --- !u!1 &1026818814
 GameObject:
   m_ObjectHideFlags: 0
@@ -715,7 +719,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1026818814}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.46, y: 0.73, z: -2.32}
+  m_LocalPosition: {x: 0.46, y: 0.73, z: -2.93}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1273,7 +1277,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875235527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.93, y: 1.48, z: -2.9}
+  m_LocalPosition: {x: 1.93, y: 1.48, z: -2.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
